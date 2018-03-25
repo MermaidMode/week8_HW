@@ -1,0 +1,124 @@
+body {
+	background-color: #f0f4f4;
+}
+
+#nav {
+
+	padding: 100px;
+	overflow: hidden;
+}
+
+a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;	
+}
+
+a:hover {
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 800;
+	text-decoration: underline;
+	color: #ecb9a5;
+}
+
+p {
+	color: #78696e;
+	font-family: 'Open Sans', sans-serif; 
+	text-align: justify;
+}
+
+.column {
+	float: left;
+	width: 45%;
+	padding: 15px;
+}
+
+#biopic {
+	display: block;
+	margin: auto;
+	width: 400px;
+	height: auto;
+	border-radius: 25px;
+}
+
+h1 {
+	color: #78696e;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 300;
+	font-size: 45px;
+	letter-spacing: 1px;
+	margin: auto;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px
+}
+
+/*FLEX CONTAINER & TRANSITION*/
+
+.flex-container {
+	display: flex;
+	background-color: #ecb9a5;
+	justify-content: center;
+}
+
+
+.flex-container > div {
+	background-color: grey;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+	float: right;
+	width: 100px;
+	text-align: center;
+	transition: all .7s ease-in-out;
+}
+
+.flex-container > div:hover {
+	background-color: black;
+	transform: scale(1.2);
+	border-radius: 50%;
+}
+
+
+/*ANIMATION*/
+
+.logo {
+	animation-name: logo-move;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+	position: relative;
+}
+
+@keyframes logo-move {
+	0% {left: 0px; top: 0px;}
+	25% {left: 200px; top: 0px;}
+	50% {left: 200px; top: 200px;}
+	75% {left: 200px; top: 0px;}
+	100% {left: 0px; top: 0px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
